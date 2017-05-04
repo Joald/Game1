@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TheGame" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TheGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-audio-d" />
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-system-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TheGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/SFML/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="C:/SFML/lib" />
+		</Linker>
+		<Unit filename="include/Button.hpp" />
+		<Unit filename="include/Clickable.hpp" />
+		<Unit filename="include/ClickableEntity.hpp" />
+		<Unit filename="include/ContextMenu.hpp" />
+		<Unit filename="include/Entity.h" />
+		<Unit filename="include/Fight.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/GameClass.hpp" />
+		<Unit filename="include/Game_Header.hpp" />
+		<Unit filename="include/Inventory.hpp" />
+		<Unit filename="include/Item.hpp" />
+		<Unit filename="include/Level.hpp" />
+		<Unit filename="include/Math.hpp" />
+		<Unit filename="include/NPC.hpp" />
+		<Unit filename="include/Player.h" />
+		<Unit filename="include/Shape.hpp" />
+		<Unit filename="include/Stat.hpp" />
+		<Unit filename="include/Tile.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Button.cpp" />
+		<Unit filename="src/Clickable.cpp" />
+		<Unit filename="src/ClickableEntity.cpp" />
+		<Unit filename="src/ContextMenu.cpp" />
+		<Unit filename="src/Entity.cpp" />
+		<Unit filename="src/Fight.cpp" />
+		<Unit filename="src/GameClass.cpp" />
+		<Unit filename="src/Inventory.cpp" />
+		<Unit filename="src/Item.cpp" />
+		<Unit filename="src/Level.cpp" />
+		<Unit filename="src/Math.cpp" />
+		<Unit filename="src/NPC.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/Shape.cpp" />
+		<Unit filename="src/Stat.cpp" />
+		<Unit filename="src/Tile.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
